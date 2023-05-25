@@ -21,7 +21,7 @@ class NotificationsVC: UIViewController {
     
     // MARK: - LAYOUT FUNCTIONS
     private func configure() {
-        
+        navigationItem.title = "Notifications"
     }
 
 }

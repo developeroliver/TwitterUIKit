@@ -8,7 +8,7 @@
 import UIKit
 
 class ExploreVC: UIViewController {
-
+    
     // MARK: - PROPERTIES
     
     // MARK: - LIFECYCLE
@@ -21,7 +21,19 @@ class ExploreVC: UIViewController {
     
     // MARK: - LAYOUT FUNCTIONS
     private func configure() {
-        
+        let searchController                    = UISearchController(searchResultsController: nil)
+        searchController.searchBar.placeholder  = "Rechercher"
+        navigationItem.titleView                = searchController.searchBar
+        searchController.searchResultsUpdater   = self
+        searchController.delegate               = self
+        automaticallyAdjustsScrollViewInsets    = true
     }
     
+}
+
+
+extension ExploreVC: UISearchResultsUpdating, UISearchControllerDelegate{
+    func updateSearchResults(for searchController: UISearchController) {
+        print(123)
+    }
 }

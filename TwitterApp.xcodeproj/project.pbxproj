@@ -16,6 +16,8 @@
 		372614A52A1FB59300BF6F65 /* ExploreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372614A42A1FB59300BF6F65 /* ExploreVC.swift */; };
 		372614A72A1FB5A600BF6F65 /* ConversationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372614A62A1FB5A600BF6F65 /* ConversationsVC.swift */; };
 		372614A92A1FB5B600BF6F65 /* NotificationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372614A82A1FB5B600BF6F65 /* NotificationsVC.swift */; };
+		372614AB2A1FCB3900BF6F65 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372614AA2A1FCB3900BF6F65 /* LoginVC.swift */; };
+		372614AD2A1FCEE900BF6F65 /* TWTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372614AC2A1FCEE900BF6F65 /* TWTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		372614A42A1FB59300BF6F65 /* ExploreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreVC.swift; sourceTree = "<group>"; };
 		372614A62A1FB5A600BF6F65 /* ConversationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsVC.swift; sourceTree = "<group>"; };
 		372614A82A1FB5B600BF6F65 /* NotificationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsVC.swift; sourceTree = "<group>"; };
+		372614AA2A1FCB3900BF6F65 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		372614AC2A1FCEE900BF6F65 /* TWTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 		3726149A2A1FB44E00BF6F65 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				372614AC2A1FCEE900BF6F65 /* TWTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -103,6 +108,7 @@
 				372614A42A1FB59300BF6F65 /* ExploreVC.swift */,
 				372614A82A1FB5B600BF6F65 /* NotificationsVC.swift */,
 				372614A62A1FB5A600BF6F65 /* ConversationsVC.swift */,
+				372614AA2A1FCB3900BF6F65 /* LoginVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -202,8 +208,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				372614AD2A1FCEE900BF6F65 /* TWTextField.swift in Sources */,
 				372614A32A1FB58300BF6F65 /* FeedVC.swift in Sources */,
 				372614A72A1FB5A600BF6F65 /* ConversationsVC.swift in Sources */,
+				372614AB2A1FCB3900BF6F65 /* LoginVC.swift in Sources */,
 				372614832A1FB32E00BF6F65 /* AppDelegate.swift in Sources */,
 				372614A52A1FB59300BF6F65 /* ExploreVC.swift in Sources */,
 				372614A12A1FB4E300BF6F65 /* MainTC.swift in Sources */,

@@ -21,6 +21,6 @@ class ConversationsVC: UIViewController {
     
     // MARK: - LAYOUT FUNCTIONS
     private func configure() {
-        
+        navigationItem.title = "Messages"
     }
 }
